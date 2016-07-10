@@ -19,7 +19,7 @@ Necesitarás máquinas virtuales o físicas donde se ejecutarán los microservic
 
 
 ## Pre-requisites
-You need to have installed on localhost and remote host - Necesitas tener instalado en local y en remoto: node.js, npm, express and seneca.
+You need to have installed on localhost and remote host - Necesitas tener instalado en local y en remoto: __node.js, npm, express and seneca__.
 
 For Debian and Debian-derived operating systems - Para Debian y sistemas operativos derivados:
 ```
