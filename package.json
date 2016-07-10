@@ -1,0 +1,31 @@
+{ 
+  "name": "microservices3_severalServer",
+  "version": "1.0.0",
+  "description": "Simple microservice example, several servers",
+  "keywords": [
+    "micro",
+    "service",
+    "microservice",
+    "micro-service",
+    "microservices",
+    "micro-services",
+    "services",
+    "micro services",
+    "micro service"
+  ],
+  "main": "client.js",
+  "author": "Jorge Guzón Fernández",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yorso/microservices_seneca/tree/master/microservices3_severalServers"
+  },
+  "bugs": {
+    "url": "https://github.com/Yorso/microservices_seneca/issues"
+  },
+  "homepage": "https://github.com/Yorso/microservices_seneca/tree/master/microservices3_severalServers",
+  "dependencies": {
+    "express": "^4.13.4",
+    "seneca": "^2.1.0"
+  }
+}
