@@ -1,5 +1,5 @@
 { 
-  "name": "microservices3_severalServer",
+  "name": "seneca3_severalServer",
   "version": "1.0.0",
   "description": "Simple microservice example, several servers",
   "keywords": [
@@ -18,12 +18,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Yorso/microservices_seneca/tree/master/microservices3_severalServers"
+    "url": "https://github.com/Yorso/seneca3_severalServers"
   },
   "bugs": {
-    "url": "https://github.com/Yorso/microservices_seneca/issues"
+    "url": "https://github.com/Yorso/seneca3_severalServers/issues"
   },
-  "homepage": "https://github.com/Yorso/microservices_seneca/tree/master/microservices3_severalServers",
+  "homepage": "https://github.com/Yorso/seneca3_severalServers",
   "dependencies": {
     "express": "^4.13.4",
     "seneca": "^2.1.0"
