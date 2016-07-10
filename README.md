@@ -1,3 +1,5 @@
+![Seneca](http://senecajs.org/files/assets/seneca-logo.png)
+
 ## What is this? 
 Simple microservice example, running on 2 servers.
 
@@ -14,6 +16,21 @@ You need virtual or physical machines where microservices will run and they must
 Suma y multiplica dos números dados. Cada operación matemática es ejecutada en máquinas diferentes, y resta dos números en local.
 
 Necesitarás máquinas virtuales o físicas donde se ejecutarán los microservicios y deben tener instalados node.js, npm, express y seneca. Puedes usar tu localhost simplemete cambiando el puerto (debe ser diferente al de client.js).
+
+
+## Pre-requisites
+You need to have installed - Necesitas tener instalado: node.js, npm, express and seneca.
+
+For Debian and Debian-derived operating systems - Para Debian y sistemas operativos derivados:
+```
+$ sudo apt install nodejs
+
+$ sudo apt install npm
+
+$ npm install express
+
+$ npm install seneca
+```
 
 
 ## Executing
@@ -39,3 +56,9 @@ $ nodejs service_prod.js
  Product: [http://localhost:3000/operations/multnum/?right=2&left=33](http://localhost:3000/operations/multnum/?right=2&left=33) 
  
  Subtract: [http://localhost:3000/operations/subnum/?right=2&left=33](http://localhost:3000/operations/subtnum/?right=2&left=33)
+
+
+## References
+All documentation in [Seneca.js](http://senecajs.org) site.
+
+Reference book: [Developing Microservices with Node.js - David González](https://www.packtpub.com/web-development/developing-microservices-nodejs)
